@@ -100,12 +100,18 @@ section {
     color: #404bbf;
 }
 
-.current-nav-left {
+.nav-left-studio {
     color: #404bbf;
     position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
 }
 
-.current-nav-left::after {
+.nav-left-studio::after {
     content: "";
     position: absolute;
     width: 100%;
